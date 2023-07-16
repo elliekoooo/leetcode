@@ -1,4 +1,7 @@
-public class climbStairs {
+import java.util.LinkedList;
+import java.util.List;
+
+public class _ClimbStairs {
     class Solution {
         public int climbStairs(int n) {
             if(n <= 2)
@@ -13,7 +16,6 @@ public class climbStairs {
                 front = back;
                 back = count;
             }
-
 
             return count;
         }
